@@ -23,32 +23,32 @@
       </a>
     </header>
     <main class="main">
-      <section id="add-task">
+      <section id="add-task" class="tasks">
         <h2>
           <label for="new-task"
-            class="task__label title task__label-new">
+            class="tasks__label title tasks__label-new">
             Add Item
           </label>
         </h2>
         <div class="task-wrapper">
           <input
             id="new-task"
-            class="task task__input task__input-text"
+            class="task tasks__input tasks__input-text"
             type="text">
           <button class="btn">Add</button>
         </div>
       </section>
-      <section>
+      <section class="tasks">
         <h2 class="title">Todo</h2>
-        <ul class="task__list" id="incomplete-tasks">
-          <li class="task__list__item">
+        <ul class="tasks__list" id="incomplete-tasks">
+          <li class="tasks__list__item">
             <input type="checkbox"
-              class="task__input task__input-checkbox">
-            <label class="task task__label">
+              class="tasks__input tasks__input-checkbox">
+            <label class="task tasks__label">
               Pay Bills
             </label>
             <input type="text"
-              class="task task__input task__input-text">
+              class="task tasks__input tasks__input-text">
             <button class="btn btn-edit">Edit</button>
             <button class="btn btn-delete">
               <img class="btn__img"
@@ -56,16 +56,16 @@
                 alt="The remove task image">
             </button>
           </li>
-          <li class="edit-mode task__list__item">
+          <li class="edit-mode tasks__list__item">
             <input type="checkbox"
-              class="task__input task__input-checkbox">
-            <label class="task task__label">
+              class="tasks__input tasks__input-checkbox">
+            <label class="task tasks__label">
               Go Shopping
             </label>
             <input
               type="text"
               value="Go Shopping"
-              class="task task__input task__input-text">
+              class="task tasks__input tasks__input-text">
             <button class="btn btn-edit">Save</button>
             <button class="btn btn-delete">
               <img class="btn__img"
@@ -75,18 +75,18 @@
           </li>
         </ul>
       </section>
-      <section>
+      <section class="tasks">
         <h2 class="title">Completed</h2>
-        <ul class="task__list" id="completed-tasks">
-          <li class="task__list__item">
+        <ul class="tasks__list" id="completed-tasks">
+          <li class="tasks__list__item">
             <input type="checkbox"
-              class="task__input task__input-checkbox"
+              class="tasks__input tasks__input-checkbox"
               checked>
-            <label class="task task__label">
+            <label class="task tasks__label">
               See the Doctor
             </label>
             <input type="text"
-              class="task task__input task__input-text">
+              class="task tasks__input tasks__input-text">
             <button class="btn btn-edit">Edit</button>
             <button class="btn btn-delete">
               <img class="btn__img"
